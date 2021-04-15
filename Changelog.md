@@ -1,3 +1,57 @@
+## Version 2.9.1.0
+
+### New tools
+
+* **Drop objects:** Drop objects on below surfaces. Press SHIFT when activating the tool to align the objects to the surface form.
+* **Arrange objects (start-end objects):** Distribute objects (equally spaced) on a linear direction.  Direction and length of the distribution determined by the position of two objects: 1. Select the START OBJECT -- 2. Select the END OBJECT -- 3. Select the objects to distribute between them. * Press the TOOL BUTTON+SHIFT to conform and align the objects to the underlying surfaces.
+* **Arrange objects (real-time):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's in Real Time. Warning! slow.  When tracking positions: *Press SHIFT to conform to the underlying surfaces* Press CONTROL to orient to the underlying surfaces
+* **Arrange objects (interactive):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's with marks in the viewport.  When tracking positions: *Press SHIFT to conform to the underlying surfaces* Press CONTROL to orient to the underlying surfaces
+
+>Check the user guide for detailed instruction of how this tools work
+
+### Enhancements
+
+* Renamed "Move around" tool to "Polar array" to better reflect its intent.
+* Updated some icons to better match the overall look.
+* Combined tools launch floater dialogs:
+  * Updated to include latest tools.
+  * Treated now as a "legacy" feature. Is moved to "Extras" optional installation category. Considering not to update it anymore (user feedback welcome) since it was introduced in the firsts versions, then the current 3ds Max menu system was not implemented yet, and it makes this dialogs irrelevant now.
+* Added support for 3ds Max 2022
+
+### Fixes
+
+* Eyedropper: Fixed UVWmapping mode, it was broken in 2.9.0.0.
+* Just some internal changes.
+
+## Version 2.9.0.0
+
+### New tools
+
+* Three points align: Relocate a node from three pairs of points, from an origin position to a target position.
+* Material replacer: Automate the process of replacing materials. Intended to be used when importing scenes from other sources.
+
+### Enhancements
+
+* Camera manager:
+  * Added per camera preview of resolution aspect ratio.
+  * Added support for state sets
+* Improved some UI inconsistencies
+* Added some missing icons
+* Improved menu organization
+* Reorganization of the ribbon interface
+* Internal changes:
+  * Changed how the tool is initialized.
+
+### Fixes
+
+* Paneling tool:
+  * Fixed a crash when using "custom object" mode.
+  * Improved UI for ease of use
+  * Added a live preview of the panel grid
+* Move and align tool: Better alignment result in some situations.
+* Licensing: changed the way of obtaining a machine ID, to address the lack of support for devices without an ethernet port.
+* General fixes and optimizations.
+
 ## Version 2.8.2.1
 
 ### improvements
