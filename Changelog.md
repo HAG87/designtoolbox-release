@@ -1,3 +1,18 @@
+## Version 2.9.1.1
+
+### New tools
+
+* Pivot to snap point: Quickly move an object's pivot to a snapping point.
+
+### Enhancements
+
+* Divide distance tool: viewport text that displays the number of segments and length was moved to follow the mouse position instead of being near start point
+* Explode and Merge: Now pressing **CTRL** when executing the tool will skip the "keep original object" prompt.
+
+### Fixes
+
+* refGuides: Fixed broken "standard splines creation mode". NOTICE: It is reported that refGuides tools can conflict with the plugin "VG Snaps" and cause a total crash of 3ds Max, if you're having this issue, please let us know.
+
 ## Version 2.9.1.0
 
 ### New tools
