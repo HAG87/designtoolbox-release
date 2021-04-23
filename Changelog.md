@@ -1,3 +1,10 @@
+## Version 2.9.1.2
+
+### Fixes
+
+* Distance measurements in orthogonal viewport were misplaced.
+* Bounding box snap was still on after using Offset and reDimension tools.
+
 ## Version 2.9.1.1
 
 ### New tools
