@@ -1,3 +1,11 @@
+## Version 2.9.2.0
+
+* Reverted changes in Move and Align tool: Instead of picking an align origin point and reposition it until the tool is ended, now you can pick a origin-destination point pair each time.
+* Fixed some issues with Camera manager not updating correctly.
+* Material replacer: Now, after Applying changes, the list of materials is refreshed.
+* Added a settings option to disable updates check.
+* Incremental isolation now should include new objects created in the current isolation level.
+
 ## Version 2.9.1.2
 
 ### Fixes
