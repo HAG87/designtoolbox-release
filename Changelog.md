@@ -1,3 +1,97 @@
+## Version 2.9.4.2
+
+### Added
+
+* Reference move tool (User requested): Move tool that uses two (origin and destination) reference points.
+* Swap position tool (User requested): Select a collection of objects (will follow the selection pick order) and cycle their transform from one to the next.
+
+### Fixes
+
+* Fixed critical functionality problem with refGuides: Intersection points were not working correctly in 3ds Max 2022.
+* Fixed configuration option to change refGuide object to standard splines.
+
+### Enhancements
+
+* Tested compatibility with 3ds Max 2023
+
+## Version 2.9.4.1
+
+### Fixes
+
+* The angle measure tool was not displaying the angle correctly
+* The area measure tool was not displaying the value and was throwing an error
+
+### Enhancements
+
+* reDimension tool has now an option to keep object proportions.
+* Photographic composition guides updated to include golden ratio proportions.
+
+## Version 2.9.4.0
+
+### Enhancements
+
+* New UI icons: Due to a data loss, the icons had to be redone. The new aesthetic is more consistent and blends well with native icons.
+* Camera manager
+  * Added control for f-number, shutter, and ISO
+  * Replaced image aspect presets to aspect ratio «X:Y» format.
+  * Added buttons to get the resolution/ratio from an image and the current viewport background.
+* mtlReplacer received several improvements:
+  * Simplified UI: to assign a replacement, select a material (or a range) in the list and double click to open the Material explorer.
+  * Multi-materials are listed by default. Added support to list & replace sub-materials (one level deep, no nested materials, for now, a multi-level solution is on plans).
+  * Added a "Use" column to the list that shows if the material is used in the scene or as sub-material.
+* Incremental Isolation:
+  * Added an indication of the current level (i.e: level 7)
+  * Decreasing the level selected all visible objects. This was corrected to maintain the current selection. Known Issue: working in sub-object and changing the level will return to object mode.
+  * Newly created objects in a level were not correctly added to the stack.
+  * Hiding an object when at a level will not keep the visibility state going one level up/down. This was changed so the object will remain hidden.
+
+### Added
+
+* Included extras*:
+  * Texture maps filename search and replace
+  * viewport composition guides
+
+* Extras are tools that either do not fit well in another group of tools or are provided for free on our website and it is included in the package for convenience.
+
+### Fixes
+
+* layTools: Fixed undo actions
+* mapTools: Optimized slow UI, fixed broken functionality
+* Some general maintenance and optimizations.
+
+## Version 2.9.3.1
+
+### Fixes
+
+* Divider tool: segments display didn't follow the mouse cursor in orthographic views
+* Rotation tools
+  * Crash when using 2.5D snap mode.
+  * Ortho views were not restored after using the tool
+
+## Version 2.9.3.0
+
+### Enhancements
+
+* Entirely rewritten Array tools
+Besides setting up a framework that allows to expand the tools feature sets, these are the changes for now:
+  * 2D Array: If you press SHIFT when executing the tool, the object will be cloned to the grid cells instead. Also a new Macro was added to use this mode: 2D Array - grid cells.
+  * Pattern Array:
+    * Simplified the UI, just one button to add/update the row-column rule.
+    * Major enhancement and performance improvement in some cases.
+* Paneling tool: Replaced the tool completely; the results will be the same, but is easier to use and follows the same mechanics that the 2D Array tool. For how-to-use, refer to the user guide.
+* Replaced the "Welcome" dialog with some more useful information for new users.
+* Some general optimizations all over the place, some tools should work faster in some cases.
+
+### Added
+
+* Stamp tool (Experimental): Use an object to Interactively stamp its shape or cut holes in a mesh.
+
+### Fixes
+
+* Fixed a problem with eyedropper tool that caused the display of an error dialog after one use.
+* The Drop Objects tool did not work as expected when the target object's pivot was displaced.
+* Distribute tools that were broken.
+
 ## Version 2.9.2.0
 
 * Reverted changes in Move and Align tool: Instead of picking an align origin point and reposition it until the tool is ended, now you can pick a origin-destination point pair each time.
@@ -27,6 +121,10 @@
 ### Fixes
 
 * refGuides: Fixed broken "standard splines creation mode". NOTICE: It is reported that refGuides tools can conflict with the plugin "VG Snaps" and cause a total crash of 3ds Max, if you're having this issue, please let us know.
+
+### Issues
+
+* Tooltips: 3ds Max uses the MacroScripts tooltips to list them in customization and the new hotkey editor. This makes difficult to find the right tool. As a workaround the prefix "Dstlbx -" was added to the tooltips.
 
 ## Version 2.9.1.0
 
@@ -209,7 +307,7 @@ This is a maintenance release, centered in fixing some critical bugs.
 ### Added tools
 
 * Wirecolor adjust: Adjust selection wire colors. brightness, saturation and hue.
-* Extras (Tools under "HAG tools" category):
+* Extras (Tools under "DSTLBX tools" category):
   * Bitmap multi-loader: Create SME Texture Nodes from multiple images with one action. With option to override gamma of loaded images.
   * Map name from file: rename scene texture maps with their correspondent filename.
   * Select without material.
@@ -413,7 +511,7 @@ This version addresses some problems found in the previous release:
   * Some other refinements.
 * Net rendering (Backburner): Install the demo version in the render nodes to avoid warnings and potential render job fail.
 * Moved refGuides MacroScripts to category "refGuides"
-* Moved DesignToolbox MacroScripts to category "Designtoolbox"; Optional features remains on category "HAG tools".
+* Moved DesignToolbox MacroScripts to category "Designtoolbox"; Optional features remains on category ~~"HAG tools"~~ (Replaced by DSTLBX tools).
 * 3ds Max 2019 compatibility. Fixed compatibility with versions prior to 2017.
 
 ### New features
