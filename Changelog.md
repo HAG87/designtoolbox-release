@@ -1,6 +1,27 @@
+## Version 2.9.4.3
+
+### Fixes
+
+* Mirror tool:
+  * Fixed inverted rotation
+  * Fixed clone mode not deactivating
+  * Added a cancel button.
+* ref Rotate: fix for inverted rotation result
+* ref Scale: rewritten to be more reliable. In previous versions, the tool will fail if the reference vectors where perpendicular.
+* cameraManager: Unlocked the rollout height. In displays with a resolution of 1080p some buttons where cropped
+* Pivot tools:
+  * Fixed Working Pivot to Pivot button
+  * Added a tooltip for the "Pivot to Face" to express more clearly that only works with editable polys.
+* infoTool: Fixed swapped dimension labels.
+
+### New
+
+* Added an option to disable Bounding box snap auto activation in certain tools.
+* ref Rotate: If you press CTRL on the last step, the rotation is performed over a copy of the reference object.
+
 ## Version 2.9.4.2
 
-### Added
+### New
 
 * Reference move tool (User requested): Move tool that uses two (origin and destination) reference points.
 * Swap position tool (User requested): Select a collection of objects (will follow the selection pick order) and cycle their transform from one to the next.
@@ -45,7 +66,7 @@
   * Newly created objects in a level were not correctly added to the stack.
   * Hiding an object when at a level will not keep the visibility state going one level up/down. This was changed so the object will remain hidden.
 
-### Added
+### New
 
 * Included extras*:
   * Texture maps filename search and replace
@@ -82,7 +103,7 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 * Replaced the "Welcome" dialog with some more useful information for new users.
 * Some general optimizations all over the place, some tools should work faster in some cases.
 
-### Added
+### New
 
 * Stamp tool (Experimental): Use an object to Interactively stamp its shape or cut holes in a mesh.
 
@@ -109,7 +130,7 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 
 ## Version 2.9.1.1
 
-### New tools
+### New
 
 * Pivot to snap point: Quickly move an object's pivot to a snapping point.
 
@@ -128,7 +149,7 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 
 ## Version 2.9.1.0
 
-### New tools
+### New
 
 * **Drop objects:** Drop objects on below surfaces. Press SHIFT when activating the tool to align the objects to the surface form.
 * **Arrange objects (start-end objects):** Distribute objects (equally spaced) on a linear direction.  Direction and length of the distribution determined by the position of two objects: 1. Select the START OBJECT -- 2. Select the END OBJECT -- 3. Select the objects to distribute between them. * Press the TOOL BUTTON+SHIFT to conform and align the objects to the underlying surfaces.
@@ -153,7 +174,7 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 
 ## Version 2.9.0.0
 
-### New tools
+### New
 
 * Three points align: Relocate a node from three pairs of points, from an origin position to a target position.
 * Material replacer: Automate the process of replacing materials. Intended to be used when importing scenes from other sources.
@@ -197,7 +218,7 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 
 ## Version 2.8.2.0
 
-### New tools
+### New
 
 * Quick Merge(attach) and Explode(Detach) for editable poly / editable mesh elements.
 * Quick manage polygon material IDs
@@ -246,7 +267,7 @@ This is a maintenance release, centered in fixing some critical bugs.
 
 ## Version 2.8.0.0
 
-### New Tools
+### New
 
 * **Points:** New tool for placing reference points at temporary guides intersections.
 * **Renderable dimensions:** This was a old users request. The tool isn't perfect, and creates standard line shapes and text, but it does his commit.
@@ -304,7 +325,7 @@ This is a maintenance release, centered in fixing some critical bugs.
     * Canceling the last plane-gizmo rotation does not end the tool.
 * ColorBar: Added option to adjust colors brightness, saturation and hue.
 
-### Added tools
+### New
 
 * Wirecolor adjust: Adjust selection wire colors. brightness, saturation and hue.
 * Extras (Tools under "DSTLBX tools" category):
@@ -312,7 +333,7 @@ This is a maintenance release, centered in fixing some critical bugs.
   * Map name from file: rename scene texture maps with their correspondent filename.
   * Select without material.
 
-### Bugfixes
+### Fixes
 
 * Error that causes the activation dialog to reopen.
 * Improved licensing messages
@@ -326,13 +347,13 @@ This is a maintenance version with small fixes.
 
 ## Version 2.7.1.1
 
-### Bugfixes
+### Fixes
 
 * Addressed some issues with the activation system.
 * Broken refGuides track angle snap.
 * Fixed High DPI Icons
 
-### New Tools
+### New
 
 * **Reflect tool**: Viewport interactive mirror tool. let's you set a 3d gizmo for freely position mirror planes.
 * Added a simple action to rename Bitmap Textures to the filename of the corresponding image.
