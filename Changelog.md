@@ -1,5 +1,22 @@
 ## Version 2.9.4.3
 
+## Version 2.9.5.0
+
+### New
+
+* Tool to measure the angle between two polygons faces.
+* Accumulative dimension Measure. Useful to visualize the length of a non linear path, or to get the perimeter of a shape.
+
+### Enhancements
+
+* Improved refRotation tool.
+* General optimizations.
+
+### Fixes
+
+* Material Replacer tool was not working
+* Fixed the configuration, some settings where not saved
+
 ### Fixes
 
 * Mirror tool:
