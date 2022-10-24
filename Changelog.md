@@ -1,4 +1,21 @@
-## Version 2.9.4.3
+## Version 2.9.5.1
+
+### New
+
+* 1D array:
+  * Press SHIFT when launching the tool to clone the source at the segments middle.
+  * The clones will be aligned to the reference line direction. please note that the orientation will depend on the source object pivot.
+
+### Enhanced
+
+* Undocumented feature of "Reference rotation": If you hold CTRL key when performing the last step (rotation) the tool will rotate an instance of the object instead.
+* Divide distance: the points will be aligned to follow the reference line direction.
+
+### Fixes
+
+* Fixed a problem with the "Pivot from 3 points" option when the tool is used directly from the shortcut.
+* Improved some of the pivot tools to work with multiple selected objects at once.
+* Some quality and performance improvements.
 
 ## Version 2.9.5.0
 
@@ -16,6 +33,27 @@
 
 * Material Replacer tool was not working
 * Fixed the configuration, some settings where not saved
+
+### Fixes
+
+* Mirror tool:
+  * Fixed inverted rotation
+  * Fixed clone mode not deactivating
+  * Added a cancel button.
+* ref Rotate: fix for inverted rotation result
+* ref Scale: rewritten to be more reliable. In previous versions, the tool will fail if the reference vectors where perpendicular.
+* cameraManager: Unlocked the rollout height. In displays with a resolution of 1080p some buttons where cropped
+* Pivot tools:
+  * Fixed Working Pivot to Pivot button
+  * Added a tooltip for the "Pivot to Face" to express more clearly that only works with editable polys.
+* infoTool: Fixed swapped dimension labels.
+
+### New
+
+* Added an option to disable Bounding box snap auto activation in certain tools.
+* ref Rotate: If you press CTRL on the last step, the rotation is performed over a copy of the reference object.
+
+## Version 2.9.4.3
 
 ### Fixes
 
