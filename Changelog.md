@@ -1,3 +1,22 @@
+## Version 2.9.6.0
+
+### New
+
+* 3ds Max 2024 support.
+* Dimension tool improvements: Dimension objects
+  * Expanded the customization:
+    * Now it is possible to change the arrow heads style. Available styles are: Arrow, Triangle, Circle, Ticks.
+    * You can set an offset parameter to move the line away from the points.
+    * Added extension lines to better mark the start and end of the dimension line
+    * New "Solid rendering" option creates an outlined spline with a extrude modifier applied. Lines thickness and extrude value can be controlled
+    * After starting the tool, a new dialog to align the dimension and flip the text
+
+### Fixes
+
+* Some small fixes and optimizations
+* Isolate layer tool will fail and hang 3ds max if the layer has child layers.
+* Removed unnecessary script calls from the ribbon ui that were filling the log file.
+
 ## Version 2.9.5.2
 
 ### New
