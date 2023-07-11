@@ -1,3 +1,28 @@
+## Version 2.9.7.0
+
+### New
+
+* Edge Length tool:
+  Change edge length. Works Only with Editable Poly objects.
+    1. Select the Editable Poly object and start the tool.
+    2. Select a set of edges you want to modify and select a reference vertex for each edge, it will be used as a base point to set the direction of the operation.
+      If no vertex is selected the tool will use the first one that finds.
+    3. Options: Max, minimum, and average length, custom value.
+* Measure distance: added an option to draw the dimension line with arrowheads
+
+### Fixes
+
+* History Dialog: Fixed a crash related to the UI
+* Replicator group mode toggle was not working properly
+* Array Polar UI scaling broke the angle pick dial
+
+### Changes
+
+* Dimension object creation: updated and simplified the dimension object reposition UI dialog.
+* Viewport Composition Guides: Use right-click in the add guide buttons to clean the guides
+* Stamp tool moved to "extras"
+* Code quality changes
+
 ## Version 2.9.6.0
 
 ### New
