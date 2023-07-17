@@ -1,3 +1,12 @@
+## Version 2.9.7.1
+
+### Fixes
+
+* Detailer:
+  * Error "no .count property in obj" when only one base object is selected
+  * Optimizations
+* Error in scale lock switch
+
 ## Version 2.9.7.0
 
 ### New
