@@ -1,3 +1,24 @@
+## Version 2.9.8.0
+
+### New
+
+* Angle between two edges
+  * Select two edges in an Editable poly or mesh object.
+  * Turn on the tool to show the angle between these two edges. Check the button again to change the object or to disable the tool.
+
+### Changes
+
+* Angle between two faces: The tool have been improved to work with any geometry type. Also, it no longer needs an object to be selected for it to work.
+* intersection points tool have been improved to show each placed line at the same time.
+* Some minor optimizations
+
+### Fixes
+
+* Line guide UI dialog was displayed with a transparent background. Added radio buttons for options that were placed in a context menu.
+* The tooltips for the line guide unit display tools were swapped.
+* Fixed non functional quick access UI floaters.
+* Stamp Tool: fixed a problem with the tool crashing at start.
+
 ## Version 2.9.7.1
 
 ### Fixes
