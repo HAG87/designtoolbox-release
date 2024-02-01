@@ -1,3 +1,28 @@
+## Version 2.10.0.0
+
+### New
+
+* Vertices ALign: Align the selected vertices. 1- Select a set of vertices or edges. 2- Click an origin point and an end point, to define a straight line to which to align the vertices. Only works with Editable Polys
+* Modifiers Presets: new tool to store presets for modifiers.
+* refGuides: Compute line guides intersection. If you move the guides, delete the intersection points, or just forgot to enable the setting to create them, and needs the intersection points, use this action.
+* Select with same material: A more convenient quick way to select objects sharing the same material.
+
+### Fixes
+
+* Color clipboard: color swatches were shown with alpha values.
+* Mirror tool: the UI dialog background was transparent uin 3ds Max 2024.
+* Eyedropper gbuffer function was broken
+* reference rotation: angle tracking was inverted, incorrect angle tracking in certain situations.
+* refGuide - polar mode: angle tracking was inverted, misplaced text labels.
+* Distribute tool: wrong positioning of objects
+* refGuides delete tool: The filters to remove only one type of object were not working properly.
+
+### Changes
+
+* Added some missing icons
+* Optimizations in Eyedropper tool
+* Some general code-maintenance adn optimizations
+
 ## Version 2.9.8.1
 
 ### Fixes
