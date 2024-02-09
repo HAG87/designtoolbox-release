@@ -1,3 +1,9 @@
+## Version 2.10.1.0
+
+### Fixes
+
+* critical fix for 1D align tool.
+
 ## Version 2.10.0.0
 
 ### New
