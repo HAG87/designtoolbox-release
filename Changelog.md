@@ -1,3 +1,9 @@
+## Version 2.10.3.0
+
+### Fixes
+
+* critical fix for reDimension tool.
+
 ## Version 2.10.2.0
 
 ### Fixes
