@@ -1,3 +1,9 @@
+## Version 2.10.4.0
+
+### Fixes
+
+* reDimension tool: fixed undo.
+
 ## Version 2.10.3.0
 
 ### Fixes
