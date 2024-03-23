@@ -1,3 +1,12 @@
+## Version 2.10.5.0
+
+### Fixes
+
+* camera manager: fixed FOV parameter
+* explode/merge: fixed problem with non editable-ploy objects
+* modifiers presets: fixed problem that crashed the tool when adding a modifier to a group
+* measure tools: fixed a problem that caused the tool to end after the first measure
+
 ## Version 2.10.4.0
 
 ### Fixes
