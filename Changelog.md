@@ -1,3 +1,21 @@
+## Version 2.20.0.0
+
+### New
+
+* Added support for 3ds max 2025
+
+### Fixes
+
+* Position tools: The objects were positioned in an unexpected order.
+* Code optimization, faster startup.
+* Fixed a problem that caused a crash when an invalid license was used.
+
+### Changes
+
+* Reorganized the menu.
+* Removed support for versions prior to 3ds max 2018. This was done to streamline the development.
+* Changed the files structure and install directory. Now the plugin content is installed in the ApplicationPlugins folder instead of the main 3ds max installation, following the recent guidelines for plugin developers.
+
 ## Version 2.10.5.0
 
 ### Fixes
