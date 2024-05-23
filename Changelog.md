@@ -1,3 +1,9 @@
+## Version 2.20.2.0
+
+### Fixes
+
+* MacroScripts failing to find scripts
+
 ## Version 2.20.0.0
 
 ### New
