@@ -1,3 +1,11 @@
+## Version 2.20.3.0
+
+### Fixes
+
+* Installer:
+  * Install directory always falls back to %APPDATA%
+  * Error message after uninstall/reinstall.
+
 ## Version 2.20.2.0
 
 ### Fixes
