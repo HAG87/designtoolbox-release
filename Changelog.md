@@ -1,3 +1,27 @@
+## Version 2.21.0.0
+
+### Changes
+
+* Measure dimension tools
+  * Changed the way that text labels are displayed, for readability: Now the background is ON by default, has more margin around the text legend and the color can be configured.
+  * Added options:
+    * "Offset from origin" setting, to render the dimension lines away from the measure points. This can be found on the "Set units"dialog.
+    * "Arrowheads angle": Now you can control the aperture angle for the arrowheads. This can be found on the "Set units"dialog.
+    * "Extension line length": The extension lines at the measure points can now be customized. This can be found on the "Set units"dialog.
+    * Added an option in the history dialog to turn on/off arrowheads.
+    * Option in the configuration dialog to globally turn on/off arrowheads.
+* Several optimizations done to the graphic functions that displays visual information and gizmos.
+  * All the text labels that shows measurements, like distances and angles are now rendered with a background.
+* Angle between edges: The tool is now interactive, allowing to change the edges selection and the active object. When turning off the tool, if you have changed the current object selection, it will ask if you want to change the object instead of deactivate the tool.
+
+### Known issues
+
+The color of the text labels backgrounds (besides the measure distance tools) that can be changed in the configuration dialog will be blended with the current wireframe color. A workaround is unchecking the random colors option (in the color picker) setting a default light gray color, and using a dark color for the texts background (via de config. dialog).
+
+### Fixes
+
+* Fixed a problem with normal gamma correct tool: Error triggered if V-ray or Corona render are not installed.
+
 ## Version 2.20.3.0
 
 ### Fixes
