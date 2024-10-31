@@ -1,3 +1,18 @@
+## Version 2.21.5.0
+
+### Changes
+
+* Some optimizations for the measure tool arrows display.
+* Random material Id tool: Added UI, added an option to set a random id for each selected editable poly object
+
+### New
+
+* Replicator: A dialog to change settings has been added. New settings include toggles for keeping properties of the original nodes, like layer, material, and linking.
+
+### Fixes
+
+* Installer: When deselecting the "extras" component during the installation, a waring will raise after starting 3ds Max, indicating that some components are missing.
+
 ## Version 2.21.0.0
 
 ### Changes
