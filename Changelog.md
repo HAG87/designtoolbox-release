@@ -1,3 +1,10 @@
+## Version 2.21.6.0
+
+### Fixes
+
+* UVWmap gizmo fit: This tool was broken.
+* Eyedropper setting "Replace all instances of the target node(s)" description was incorrect. Now reads: If the target node is an instance, replace all instances of the node. Note: This mode will ignore the _source group_ and _target group_ options
+
 ## Version 2.21.5.0
 
 ### Changes
@@ -439,8 +446,8 @@ Besides setting up a framework that allows to expand the tools feature sets, the
 
 * **Drop objects:** Drop objects on below surfaces. Press SHIFT when activating the tool to align the objects to the surface form.
 * **Arrange objects (start-end objects):** Distribute objects (equally spaced) on a linear direction.  Direction and length of the distribution determined by the position of two objects: 1. Select the START OBJECT -- 2. Select the END OBJECT -- 3. Select the objects to distribute between them. * Press the TOOL BUTTON+SHIFT to conform and align the objects to the underlying surfaces.
-* **Arrange objects (real-time):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's in Real Time. Warning! slow.  When tracking positions: *Press SHIFT to conform to the underlying surfaces* Press CONTROL to orient to the underlying surfaces
-* **Arrange objects (interactive):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's with marks in the viewport.  When tracking positions: *Press SHIFT to conform to the underlying surfaces* Press CONTROL to orient to the underlying surfaces
+* **Arrange objects (real-time):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's in Real Time. Warning! slow.  When tracking positions: _Press SHIFT to conform to the underlying surfaces_ Press CONTROL to orient to the underlying surfaces
+* **Arrange objects (interactive):** Distribute objects (equally spaced) on a linear direction. Tracks the objects new position's with marks in the viewport.  When tracking positions: _Press SHIFT to conform to the underlying surfaces_ Press CONTROL to orient to the underlying surfaces
 
 >Check the user guide for detailed instruction of how this tools work
 
@@ -774,7 +781,7 @@ This version addresses some problems found in the previous release:
 ## Version 2.5.4
 
 * Added complete tool set menu
-* Fixed (partially) problem with *paramblock2*
+* Fixed (partially) problem with _paramblock2_
 * Fixed issues with UVW map transform tool
 * Fixed behavior of Replicator with groups
 * Added option to Replicator to propagate or not to instances
@@ -804,7 +811,7 @@ This version addresses some problems found in the previous release:
 * Transform tools: Improved polar and orthogonal tracking.
 * refGuides
   * Polar placing: Now, when placing the polar reference plane, you can orient and rotate (yaw-pitch-roll) it.
-  * Orthogonal mode: Pressing *CTRL* will lock z-axis.
+  * Orthogonal mode: Pressing _CTRL_ will lock z-axis.
   * Removed option to place protractor with guide line.
   * New objects: Now line, protractor and intersection points are configurable **custom objects**, you can now snap to vertex at a intersection point.
 * General performance improvements and fixes
