@@ -1,3 +1,9 @@
+## Version 2.21.7.0
+
+### Fixes
+
+Addressed critical error in transform tools (Offset and reDimension tools were broken)
+
 ## Version 2.21.6.0
 
 ### Fixes
