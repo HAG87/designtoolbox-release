@@ -1,3 +1,9 @@
+## Version 2.21.8.0
+
+### Fixes
+
+Addressed critical error in some tools (mainly the measure Area tool that was broken)
+
 ## Version 2.21.7.0
 
 ### Fixes
