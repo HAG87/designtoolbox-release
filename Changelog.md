@@ -1,3 +1,14 @@
+## Version 2.22.0.0
+
+### Fixes
+
+* Fixed problems with floater dialogs
+* Fixed problem with dialogs background when using OCIO color management
+
+### Enhancements
+
+* General code maintenance and improvements
+
 ## Version 2.21.8.0
 
 ### Fixes
