@@ -1,3 +1,9 @@
+## Version 2.22.1.0
+
+### Fixes
+
+Problem with UVW map tools: add mapping to geometry elements was broken.
+
 ## Version 2.22.0.0
 
 ### Fixes
