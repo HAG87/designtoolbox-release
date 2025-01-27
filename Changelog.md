@@ -1,8 +1,23 @@
-## Version 2.22.1.0
+## Version 2.22.5.0
+
+### New
+
+* New pivot placement tools:
+  * Align by axis
+  * Position at the center of three points.
+
+### Enhancements
+
+* Improved UVWmap add tool
+* Improved pivot tools
+* Missing menu items:
+  * Normal map gamma correct
+  * Material bump to 100.0
+* some UI and tooltips improvements
 
 ### Fixes
 
-Problem with UVW map tools: add mapping to geometry elements was broken.
+* Problem with UVW map tools: add mapping to geometry elements was broken.
 
 ## Version 2.22.0.0
 
