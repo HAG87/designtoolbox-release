@@ -1,3 +1,23 @@
+## Version 2.22.6.0
+
+### Enhancements
+
+* Camera manager:
+  * Added the ability to rename the active camera
+  * Camera list is now sorted alphabetically
+* UVWmap tools
+  * Added several options to position the map gizmo
+  * Improved gizmo center tool.
+  * Improved UI
+* Replicator: fixed a bug when operating with groups.
+* Eyedropper: Enhanced transform transfer mode. Options to only transfer the pivot transformation, or the node transform without the pivot.
+* Material replacer:
+  * Fixed a problem when using saved configurations
+  * Added the ability to resize the dialog
+  * Added notes related on how to use the tool
+  * Added scene use status
+  * Added font styles and colors to the list items.
+
 ## Version 2.22.5.0
 
 ### New
