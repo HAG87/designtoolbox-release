@@ -1,3 +1,13 @@
+## Version 2.22.7.0
+
+### New
+
+* Added a small utility function: Clean scene materials. Running this macro will force remove the unused materials from the scene.
+
+### Fixes
+
+* Fixed an issue with the measure dimension tool and other tools: when manipulating an object far from the coordinate origin, the graphic elements were drawn out of scale.
+
 ## Version 2.22.6.0
 
 ### Enhancements
