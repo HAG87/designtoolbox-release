@@ -1,3 +1,28 @@
+## Version 2.30.0.0
+
+### New
+
+* Two new utilities for working with cameras: crosshair pointer to set the camera target distance. Use it to focus the camera on a specific point.
+  * camera target distance: crosshair pointer to reposition the active camera target from the viewport. The camera target is moved at the clicked point.
+  * camera target reposition:
+* Polygon selection (for Editable poly only):
+  * Select polygons by area.
+  * Select invalid polygons. Usually when modelling or editing imported meshed, we end up with invalid "invisible" faces that breaks the edge flow and mesh smoothing. Use this tool to select those faces and remove them.
+* Align the selected nodes to the active space grid.
+
+### Fixes
+
+### Enhancements
+
+* Improved camera manager tool with support for standard cameras and added access to more camera properties.
+* Improved material replacer tool.
+* Isolate local: when selecting multiple objects, the average nodes transform will be used as reference.
+* refGuides: polar mode now restores the active grid.
+* Drop objects: align to surface now respects the object rotation.
+* Revisited some icons and the menu layout.
+* Several small internal changes to improve code maintenance and performance.
+* Support for 3ds max 2026 (untested)
+
 ## Version 2.22.7.0
 
 ### New
