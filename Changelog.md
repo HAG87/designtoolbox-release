@@ -19,7 +19,7 @@
 * Isolate local: when selecting multiple objects, the average nodes transform will be used as reference.
 * refGuides: polar mode now restores the active grid.
 * Drop objects: align to surface now respects the object rotation.
-* Revisited some icons and the menu layout.
+* Revisited some icons and the menu layout. Added SVG format for the icons (can be opted out in the installer)
 * Several small internal changes to improve code maintenance and performance.
 * Support for 3ds max 2026 (untested)
 
