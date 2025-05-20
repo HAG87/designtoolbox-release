@@ -2,15 +2,14 @@
 
 ### New
 
-* Two new utilities for working with cameras: crosshair pointer to set the camera target distance. Use it to focus the camera on a specific point.
-  * camera target distance: crosshair pointer to reposition the active camera target from the viewport. The camera target is moved at the clicked point.
-  * camera target reposition:
+* Two new utilities for working with cameras: a crosshair pointer to set the camera target distance. You can use it to focus the camera on a specific point.
+  * Camera target reposition: crosshair pointer to reposition the active camera target from the viewport. The camera target is moved to the clicked point.
+  * Camera target distance: crosshair pointer to interactively change the distance of the camera target, without affecting the direction.
 * Polygon selection (for Editable poly only):
   * Select polygons by area.
-  * Select invalid polygons. Usually when modelling or editing imported meshed, we end up with invalid "invisible" faces that breaks the edge flow and mesh smoothing. Use this tool to select those faces and remove them.
+  * Select invalid polygons. Usually, when modelling or editing imported meshes, we end up with invalid "invisible" faces that break the edge flow and mesh smoothing. Use this tool to select those faces and remove them.
 * Align the selected nodes to the active space grid.
-
-### Fixes
+* Align to average normal: align the selection to the average direction of the selected objects' positions.
 
 ### Enhancements
 
