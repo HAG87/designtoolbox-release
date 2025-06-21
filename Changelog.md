@@ -1,3 +1,13 @@
+## Version 2.31.0.0
+
+### New
+
+* Find arc (or circle) center tool: Use three points (1-Arc Start, 2-Arc end, 3-Point in arc segment) to locate the center of an arc or circle. The tool positions a point mark at the center. Press SHIFT while starting the tool to position and align a circle shape.
+
+### Fixes
+
+* "Viewport composition guides" tool was broken.
+
 ## Version 2.30.0.0
 
 ### New
