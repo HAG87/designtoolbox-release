@@ -16,3 +16,4 @@ To acquire a license (removes demo messages and enable all the features) visit [
 ## Notes
 
 Supported versions: 2018 and up.
+Additional requirements: .NET 4.8 for 3ds Max prior to 2026 and .NET 8 for 3ds Max 2026 and up.
