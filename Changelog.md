@@ -1,3 +1,9 @@
+## Version 2.32.0.0
+
+### Fixes
+
+* Added support for 3ds Max 2026.2
+
 ## Version 2.31.0.0
 
 ### New
