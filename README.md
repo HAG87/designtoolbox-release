@@ -1,5 +1,8 @@
 # DesignToolBox (3ds Max plugin)
 
+DesignToolbox is a collection of tools specially designed to accelerate and simplify basic modeling tasks for architectural models, furniture design and other tasks where accurate modeling is needed. Professionals used to CAD or precision software will find it very familiar some of the included transformation tools, like reference rotation, scale and position, measurement tools and reference guides.
+Ability to place snapping points at poly lines intersections, visual rulers, fast UVW mapping and randomize, cloning tools, scene management, panel grids, fast pivot placement and work planes are some of the tools included, and new ones are added with each update.
+
 You can freely install and use it as a feature-limited Demo.
 Download de latest installer [here](https://github.com/HAG87/designtoolbox-release/releases/latest).
 

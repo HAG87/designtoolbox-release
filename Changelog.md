@@ -1,3 +1,22 @@
+## Version 3.0.0
+
+### New
+
+### New license system
+
+The licensing system has been completely redesigned to provide a better user experience:
+
+* **Fully automated license management**: No more manual email requests or waiting for license keys. Purchase verification and license generation are now instant through our secure online portal.
+* **Multi-computer compatibility**: Individual licenses are no longer locked to a single computer. You can now use your license on any computer, providing flexibility for users with multiple workstations.
+* **Simultaneous use protection**: While licenses can be used across multiple computers, the system ensures they cannot be used simultaneously, maintaining license compliance.
+* **Self-service portal**: Users can now manage their licenses independently through a secure web interface, eliminating dependency on manual processing.
+
+### Enhancements
+
+* Improved startup time
+* Some UI fixes
+* Several optimizations.
+
 ## Version 2.32.0.0
 
 ### Fixes
