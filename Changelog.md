@@ -1,6 +1,37 @@
-## Version 3.0.0
+## Version 3.1.0
 
 ### New
+
+* Arc measure tool: measure an arc by selecting 3 points: start, end, arc bulge.
+* Diameter/radius measure tool: measure any circumference diameter by selecting 3 points.
+* Reference move tool: you can now press SHIFT (for copy) and ALT (for instances) when starting the tool to clone the source object instead of moving it.
+* Rename by layer tool: Simple tool to rename objects based on the assigned layer. Options to change the name for the current selection, all objects, skip frozen layers, new name prefix and numbering start and padding. note that layer 0 is skipped by default.
+* New quickMaterial Creator: Convenient utility with a drag and drop UI to add basic maps and create a material. The tool automatically detects the active renderer (supports Arnold, Corona and V-ray) and creates a material with the provided maps and adds it to the SME current view. Click the drag &drop button to open the maps in the SME, right-click the button to reset the slot. Important! Right-Click the "Create" button to start over with a new material.
+
+### Enhancements
+
+* Improved rotation tools:
+  * Now the use of orthographic views is more reliable and does not change view in a confusing manner.
+  * Added descriptive viewport labels when picking points.
+* Improved several other transform tools with descriptive viewport labels.
+* Improved dialogs performance.
+* Improved tooltips, improved ribbon, added ribbon tooltips languages for French, German, and Portuguese (this tooltips where automatically translated, so expect some incoherencies).
+* Completely rewritten modsPreset tool for performance and reliability.
+* Optimized UVW map tools.
+* Fixed wire color adjust tool: HSV sliders now works as expected and can be reset individually.
+* Improved color clipboard: added buttons to use the color swatch as wire color for the current selection, fixed HSV sliders.
+
+### Fixes
+
+* Fixed a problem with certain graphic helpers that appeared out of place when display safe frame is enabled or a custom grid is active.
+* fixed an issue with dialogs crashing when the color management was set to "unmanaged"
+* Fixed an issue with measure distance tools, not reporting the measurement to the listener.
+* Fixed some issues with the installer creating some unwanted artifacts.
+* Fixed camera re-target buttons in ribbon UI.
+* Fixed broken features and UI of random transform tool.
+* Fixed broken arcCenter measure tool.
+
+## Version 3.0.0
 
 ### New license system
 
