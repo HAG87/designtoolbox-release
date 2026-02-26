@@ -1,7 +1,7 @@
 {
-  "version": "3.1.2",
-  "releaseDate": "2026-01-08",
-  "downloadUrl": "https://github.com/HAG87/designtoolbox-release/releases/download/Version-3.1.2/DesignToolBox_ver_3.1.2.exe",
+  "version": "3.2.0",
+  "releaseDate": "2026-02-26",
+  "downloadUrl": "https://github.com/HAG87/designtoolbox-release/releases/download/Version-3.2.0/DesignToolBox_ver_3.2.0.exe",
   "releaseNotes": "Bug fixes and improvements",
   "isRequired": false
 }

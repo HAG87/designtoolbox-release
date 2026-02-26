@@ -1,3 +1,13 @@
+## Version 3.2.0
+
+### Enhancements
+
+* Improved color clipboard: added the ability to save and load color palletes.
+
+### Fixes
+
+* Fixed a problem with guide objects that caused the command panel values to be disabled when changing a value.
+
 ## Version 3.1.0
 
 ### New
