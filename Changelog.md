@@ -1,8 +1,25 @@
+## Version 3.2.5
+
+### Enhancements
+
+* Expanded the licensing options with a mode to "lock" the license to a specific computer temporarily or permanentrly. This is intended to provide support for users that cant to use the license without an internet connection. This mode can be activated from the license management dialog, and it will generate a unique code that can be used to lock the license to the current computer. This lock is permanent and can only be removed by contacting support, or temporary, with a duration of 30 days, after which the license will be automatically unlocked and can be used on any computer again.
+* camera manager: added automatic list update when cameras are added or removed from the scene.
+
+### Fixes
+
+* Fixed a problem with reference isolation that caused the tool to fail when executed.
+* Camera retarget: fixed a problem that caused the tool to fail. This also fixes the tool inside camera manager.
+* Fixed a problem with the brightness adjustement in color clipboard tool.
+* Fixed a problem in modifiers preset tool that caused the presets to unreliably save and load.
+* Compatibility issue in some macros with 3ds Max 2023 and prior versions.
+* Fixed crash in quick material creator when the active renderer was not supported.
+
 ## Version 3.2.0
 
 ### Enhancements
 
 * Improved color clipboard: added the ability to save and load color palletes.
+* Support for 3ds Max 2027
 
 ### Fixes
 

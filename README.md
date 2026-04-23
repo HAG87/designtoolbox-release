@@ -4,7 +4,7 @@ DesignToolbox is a collection of tools specially designed to accelerate and simp
 Ability to place snapping points at poly lines intersections, visual rulers, fast UVW mapping and randomize, cloning tools, scene management, panel grids, fast pivot placement and work planes are some of the tools included, and new ones are added with each update.
 
 You can freely install and use it as a feature-limited Demo.
-Download de latest installer [here](https://github.com/HAG87/designtoolbox-release/releases/latest).
+[Download de latest installer](https://github.com/HAG87/designtoolbox-release/releases/latest).
 
 ## Purchase
 
@@ -12,7 +12,7 @@ To acquire a license (removes demo messages and enable all the features) visit [
 
 ## Documentation
 
-* Find a list of features [here](https://atelierbump.com/features/)
+* [Find a list of features](https://atelierbump.com/features/)
 * For documentation on how to use the tools, check this this [user guide](https://atelierbump.com/docs/userguide/)
 * Also, here is a resumed [cheat sheet](https://atelierbump.com/dstlbx/commands)
 
