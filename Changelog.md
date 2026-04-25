@@ -1,9 +1,16 @@
+## Version 3.2.6
+
+### Fixes
+
+* Fixed a problem with Composition guides tool.
+
 ## Version 3.2.5
 
 ### Enhancements
 
 * Expanded the licensing options with a mode to "lock" the license to a specific computer temporarily or permanentrly. This is intended to provide support for users that cant to use the license without an internet connection. This mode can be activated from the license management dialog, and it will generate a unique code that can be used to lock the license to the current computer. This lock is permanent and can only be removed by contacting support, or temporary, with a duration of 30 days, after which the license will be automatically unlocked and can be used on any computer again.
 * camera manager: added automatic list update when cameras are added or removed from the scene.
+* Support for 3ds Max 2027
 
 ### Fixes
 
@@ -19,7 +26,6 @@
 ### Enhancements
 
 * Improved color clipboard: added the ability to save and load color palletes.
-* Support for 3ds Max 2027
 
 ### Fixes
 
