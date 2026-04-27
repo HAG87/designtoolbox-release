@@ -1,8 +1,9 @@
-## Version 3.2.6
+## Version 3.2.7
 
 ### Fixes
 
 * Fixed a problem with Composition guides tool.
+* Fixed a problem with quick material creator that caused the tool to fail when creating materials with certain renderers.
 
 ## Version 3.2.5
 
