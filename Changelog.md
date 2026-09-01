@@ -1,3 +1,23 @@
+## Version 3.3.0
+
+### New
+
+* Vertex Clean: Added a new tool to clean redundant vertices in Editable Poly objects.
+* Circularize selection: Reposition the vertices of a selected vertex set, connected edge chain, or polygon selection border onto a circle around their average center. Each vertex slides along its own centroid-to-vertex direction, so the selection's existing topology and shape are preserved. Enable the Flatten to average plane option to first project the vertices onto the selection's best-fit plane for a co-planar circle. Honors the object's active vertex edit constraint. Only works with Editable Poly and Edit Poly objects.
+* Save SME view to material library.
+
+### Enhancements
+
+* Several tools will now work with the current selection: 1D align, 3pt Align, Adv. rotation, Angle between edges, Angle between faces, Drop Tools, Local rotation, Offset tool, Ref. move, Ref. scale, Scale by distance
+* Scale by distance now supports multiple objects.
+* Quick material ID Set now works with Edita Poly modifier.
+* Optimized core functions for better performance and reliability.
+* Optimized Edge length tools
+* Optimized Incremental isolation tool.
+* Improved and optimized reflect tool.
+* Swap Transform now has a dialog to select the transform type to swap: position, rotation, scale, or any combination of them.
+* Improved Camera manager State Sets: Now if a Set exists, it will be updated instead of creating a new one. Also, you can select and update a specific set.
+
 ## Version 3.2.7
 
 ### Fixes
@@ -12,6 +32,7 @@
 * Expanded the licensing options with a mode to "lock" the license to a specific computer temporarily or permanentrly. This is intended to provide support for users that cant to use the license without an internet connection. This mode can be activated from the license management dialog, and it will generate a unique code that can be used to lock the license to the current computer. This lock is permanent and can only be removed by contacting support, or temporary, with a duration of 30 days, after which the license will be automatically unlocked and can be used on any computer again.
 * camera manager: added automatic list update when cameras are added or removed from the scene.
 * Support for 3ds Max 2027
+* Pattern Array: Simplified and improved UI; now the current row/column selection can be changed from the ListView.
 
 ### Fixes
 
