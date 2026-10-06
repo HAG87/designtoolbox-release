@@ -1,3 +1,9 @@
+## Version 3.3.1
+
+### Fixes
+
+* Fix a problem with segment divider tool: Tool will fail on certain situations and block the UI.
+
 ## Version 3.3.0
 
 ### New
